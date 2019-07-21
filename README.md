@@ -1,14 +1,13 @@
 # Semantic Search for Stackoverflow
  
-![Demo](jupyter_imgs/demo.gif) 
-<!-- .element height="50%" width="100%" -->
+<img src="jupyter_imgs/demo.gif" width="100%">
 
-###Problem Statement
+## Problem Statement
 **Stack overflow** provides one of the largest learning resources for programmers. Users post questions/doubts and his fellow peers try to provide solutions in the most helpful manner possible. The better an answer, the higher votes it gets, which also increase a user's reputation.
 
 However, this huge amount of information makes it difficult to search for the solution you are looking for. It is not that big of an issue for Domain experts and other experienced professionals, because they are aware of the correct keywords required to get an appropriate answer. However, for a new programmer, this poses a great concern. For instance, if he needs to learn ‘how to make a server’ using Python, it is quite unlikely that he would use the terms ‘Django’ or ‘Flask’ in the search box. Thus, this might intimidate the user to use the platform.
 
-###Proposed Solution
+## Proposed Solution
 
 **The Application Architecture**
 
@@ -31,7 +30,7 @@ What we want is for the platform to actually understand the semantics of what th
 7. Install the required modules using `npm install`
 8. Finally, you can start the web interface by running `npm start`. The web interface should be up and running on http://localhost:3000/
 
-### Limirations and Future improvement
+## Limitations and Future improvement
 Given the vast amount of data given on Stack overflow, I decided to exercise a few constraints for the proof of concept:
 1.	I have restricted the data to only Python Related Questions
 2.	I have restricted the possible tags to 500
