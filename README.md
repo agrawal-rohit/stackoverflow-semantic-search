@@ -1,2 +1,3 @@
-# stackoverflow-semantic-search
+# Semantic Search for Stackoverflow
  
+ < - Add GIF - >
