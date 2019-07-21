@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'Axiforma';
+  src: url('fonts/Axiforma Regular.otf'); 
+}
+@font-face {
+  font-family: 'Axiforma ExtraBold';
+  src: url('fonts/Axiforma ExtraBold.otf'); 
+}
+@font-face {
+  font-family: 'Axiforma Bold';
+  src: url('fonts/Axiforma Bold.otf'); 
+}
+@font-face {
+  font-family: 'Axiforma Light';
+  src: url('fonts/Axiforma Light.otf'); 
+}
+
+body{
+  background-color: #FCFCFC;
+  background-image: url('images/bg.png');
+  background-size: auto;
+  background-repeat: no-repeat
+}
+
+.inputfield{
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  font-family: 'Axiforma';
+  border: none;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.inputfield::placeholder{
+  font-family: 'Axiforma';
+  color: #BFC3C7;
+}
+
+.inputfield:focus{
+  box-shadow: none;
+  border: none;
+  background-color: #F2F2F2;
+}
+
+.inputfield2{
+  padding-left: 10px;
+  width: 60px;
+  margin-left: -10px;
+}
+
+.search_icon {
+  float: left;
+  margin-left: 15px;
+  margin-top: -27px;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+  color: #BFC3C7;
+}
+
+.inviscard{
+  border: none;
+  width: 90%;
+  border: 0;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: all 100ms;
+}
+
+.maincard{
+  width: 90%;
+  margin: auto;
+  border: 0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.16);
+  transition: all 100ms;
+}
+
+.logo_grad_bg{
+  width: 45%;
+  display: block;
+  margin: auto;
+  margin-top: -150px !important;
+  margin-bottom: 50px !important;
+}
+
+.logo_white_bg{
+  width: 25%;
+  display: block;
+  margin: auto;
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+}
+
+.predicted_tags_h1{
+  font-family: "Axiforma Bold";
+  font-size: 18px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.tags{
+  background-color: #FF8319;
+  margin-right: 10px;
+  font-size: 12px;
+  padding: 10px 20px;
+  font-family: 'Axiforma';
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+}
+
+.searchresultlink, .searchresultlink:hover{
+  text-decoration: none;
+  color: #464646;
+}
+
+.searchresult{
+  font-family: 'Axiforma ExtraBold';
+  background-color: #FBFBFB;
+  padding: 20px 10px 0px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #464646;
+  margin-bottom: 20px;
+}
+
+.searchresult:hover{
+  text-decoration: none;
+  color: #464646;
+  background-color: #FFFAF5 !important;
+}
+
+.searchresult h1{
+  font-size: 26px;
+}
+
+.searchresult h2{
+  font-size: 14px;
+}
+
+.searchresult h3{
+  font-family: "Axiforma ExtraBold";
+  font-size: 42px;
+  color: #FF8319;
+}
+
+.searchresult p{
+  font-family: "Axiforma";
+  font-size: 14px;
+  color: #C4C4C4;
+}
+
+.searchresult h4{
+  font-family: "Axiforma";
+  font-size: 14px;
+  color: #464646;
+  float: right;
+}
+
+.inputfieldcontainer{
+  width: 70%;
+  margin: auto;
+}
+
+.num_results_h1{
+  font-family: "Axiforma Bold";
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-size: contain;
+  }
+
+  .inputfieldcontainer, .inputfield{
+    width: 100%;
+  }
+
+  .maincard, .inviscard{
+    width: 100%;
+    padding: 0px;
+  }
+
+  .logo_grad_bg{
+    width: 70%;
+    margin-top: -120px !important;
+    margin-bottom: 50px !important;
+  }
+  
+  .logo_white_bg{
+    width: 80%;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .searchresult h1{
+    font-size: 16px;
+  }
+
+  .tags{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+
+  .predicted_tags_h1{
+    float: none;
+  }
+
+  .num_results_h1{
+    color: #464646 !important;
+    font-size: 14px;
+  }
+
+  .inputfield2{
+    width: 70px;
+    margin-left: -20px;
+  }
+}
