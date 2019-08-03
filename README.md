@@ -1,3 +1,5 @@
+Team Maverick's entry for the IBM Hack Challenge
+
 # Semantic Search for Stackoverflow
  
 <img src="jupyter_imgs/demo.gif" width="100%">
