@@ -4,7 +4,7 @@ import numpy as np
 import gensim
 from sklearn.metrics.pairwise import cosine_similarity
 
-data = pd.read_csv('../../Preprocessed_data.csv')
+data = pd.read_csv('../../data/Preprocessed_data.csv')
 all_title_embeddings = pd.read_csv('../../models/title_embeddings.csv').values
 
 # Import saved Wordvec Embeddings

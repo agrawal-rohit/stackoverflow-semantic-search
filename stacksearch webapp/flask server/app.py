@@ -30,7 +30,7 @@ def multitask_loss(y_true, y_pred):
     return K.mean(K.sum(- y_true * K.log(y_pred) - (1 - y_true) * K.log(1 - y_pred), axis=1))
 
 def load_tag_encoder():
-    data = pd.read_csv('../../Preprocessed_data.csv')
+    data = pd.read_csv('../../data/Preprocessed_data.csv')
     
     # Make a dict having tag frequencies
     data.tags = data.tags.apply(lambda x: x.split('|'))
