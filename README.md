@@ -39,7 +39,10 @@ Given the vast amount of data given on Stack overflow, I decided to exercise a f
 3.	I have used somewhat lower amounts of data points (~140,000) for faster processing 
 4. Since this project is mostly just a proof of concept, The web interface makes consecutive API calls to the server. **This is not optimal for a production environment**, and has only been added for visual aesthetic.
 
-Further improvements may include:
+## Further improvements may include:
 - Experiment to solve the problem using Topic Modelling or other sophisticated NLP tasks
 - Consider larger number of data points
 - Experiment with different architectures for the final classification network
+
+## Design Guide
+![Design Guide](https://user-images.githubusercontent.com/29514438/71876374-9973cc80-314c-11ea-8e29-5c61e153087f.png)
