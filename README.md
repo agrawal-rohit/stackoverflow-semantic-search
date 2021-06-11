@@ -1,5 +1,3 @@
-Team Maverick's entry for the IBM Hack Challenge
-
 # Semantic Search for Stackoverflow
  
 <img src="jupyter_imgs/demo.gif" width="100%">
@@ -7,7 +5,7 @@ Team Maverick's entry for the IBM Hack Challenge
 ## Problem Statement
 **Stack overflow** provides one of the largest learning resources for programmers. Users post questions/doubts and his fellow peers try to provide solutions in the most helpful manner possible. The better an answer, the higher votes it gets, which also increase a user's reputation.
 
-However, this huge amount of information makes it difficult to search for the solution you are looking for. It is not that big of an issue for Domain experts and other experienced professionals, because they are aware of the correct keywords required to get an appropriate answer. However, for a new programmer, this poses a great concern. For instance, if he needs to learn ‘how to make a server’ using Python, it is quite unlikely that he would use the terms ‘Django’ or ‘Flask’ in the search box. Thus, this might intimidate the user to use the platform.
+However, this huge amount of information makes it difficult to search for the solution you are looking for. It is not that big of an issue for Domain experts and other experienced professionals, because they are aware of the correct keywords required to get an appropriate answer. However, for a new programmer, this poses a great concern. For instance, if he needs to learn *how to make a server* using Python, it is quite unlikely that he would use the terms *Django* or *Flask* in the search box. Thus, this might intimidate the user to use the platform.
 
 ## Proposed Solution
 
