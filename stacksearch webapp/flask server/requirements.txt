@@ -1,4 +1,4 @@
-Babel==2.5.0
+Babel==2.9.1
 beautifulsoup4==4.6.0
 -e git+https://github.com/SohierDane/BigQuery_Helper@8615a7f6c1663e7f2d48aa2b32c2dbcb600a440f#egg=bq_helper
 cachetools==3.1.1
